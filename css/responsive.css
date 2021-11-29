@@ -1,0 +1,88 @@
+@media  (max-width: 1120px) {
+    .bg2 {
+        height: 100%;
+    }
+    .block:nth-child(4) {
+        margin-top: 10px;
+    }
+    .bg {
+        background-position: right;
+    }
+  }
+  @media  (max-width: 1000px) {
+        .sec1 {
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .readmore {
+            margin: auto;
+            margin-top: 5px;
+        }
+        .texts {
+            text-align: center;
+        }
+        .images {
+            margin-top: 20px;
+        }
+        .bg {
+            background-position: right;
+        }
+        .nav {
+            flex-direction: column;
+        }
+        .zetta {
+            margin: auto;
+        }
+  } 
+  @media  (max-width: 844px) {
+    .block:nth-child(3) {
+        margin-top: 10px;  
+    }   
+  }
+  @media (max-width:700px) {
+      .nav-li {
+          display: none;
+      }
+      .zetta {
+          margin-left: 25px;
+      }
+      .aboutus {
+          margin-left: 25px;
+          margin-top: 50px;
+      }
+      .bg {
+          background-position: center;
+      }
+      .nav {
+          flex-direction: row;
+      }
+      .burger-icon {
+          display: flex;
+          margin-right: 20px; 
+      }
+  }
+  @media (max-width:551px) {
+      .block:nth-child(2) {
+          margin-top: 10px;
+      }
+      .bg2-sataurebi {
+          margin-left: 10px;
+      }
+      .image:hover {
+          transform: scale(1);
+      }
+      .image2 {
+        margin-left: 130px;
+    }
+  }
+  @media (max-width:407px) {
+      .meore {
+          margin: auto;
+      }
+      .bg2-h2 {
+          font-size: 30px;
+      }
+      .blocks {
+          margin-right: 20px;
+      }  
+  }
